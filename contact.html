@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Swift Handy</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+    <div class="bg">
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="/assets/logo .png" alt=""></a>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i class="ri-menu-line"></i></label>
+            <div class="menu">
+                <ul class="list">
+                    <li style="color: #1e97c0;"><a href="/home.html">Home</a></li>
+                    <li><a href="https://swifthandy.com/services/">Services</a></li>
+                    <li><a href="/booking.html">Book Your Service</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="content">
+                <h1 class="heading1">Get In Touch</h1>
+                <p id="intro1">Feel free to contact & discuss requirements!</p>
+
+            </div>
+        </div>
+        <div class="container1">
+            <div class="row">
+                <div class="column" style="color: #9bcb3d;">
+                    <h2>&#9742; +974 3135 8616</h2>
+
+                </div>
+                <div class="column" style="color:#9bcb3d;">
+                    <h2>&#9993; help@swifthandy.com</h2>
+
+                </div>
+                <div class="column" style="color:#9bcb3d;">
+                    <h2>&#x1F5D3; Click to Book Online</h2>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container3">
+        <div style="float: left; margin-right: 20px;">
+            <h2 class="img9">Contact Us</h2>
+            <form action="reservation.php" method="post">
+                <div class="elem-group">
+
+                    <input type="text" id="name" name="visitor_name" placeholder="Your Name" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+
+                    <input type="email" id="email" name="visitor_email" placeholder="Email Adress" required>
+                </div>
+                <div class="elem-group">
+
+                    <input type="tel" id="phone" name="visitor_phone" placeholder="Phone" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                </div>
+
+
+
+                <div class="elem-group">
+
+                    <textarea id="message" name="visitor_message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">Book Your Service</button>
+            </form>
+        </div>
+        <div class="content">
+            <h2 class="img9">Main Office</h2>
+            <p style="font-size: 22px;">337 Forest Road, Walthamstow, E17 5JR London</p>
+            <h2 class="img9">Our Branch</h2>
+            <p style="font-size: 22px;">Al Mansoura Business Park, Mughalina Doha, Qatar, +974 3135 8616</p>
+        </div>
+    </div>
+</body>
+
+</html>
